@@ -20,7 +20,7 @@ contract Box is Ownable {
         return s_number;
     }
 
-    function retrieve() public view returns (uint256) {
-        return s_number;
-    }
+    // function retrieve() public view returns (uint256) {
+    //     return s_number;
+    // }
 }
